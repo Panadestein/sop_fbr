@@ -1,0 +1,15 @@
+* SOP-FBR
+
+This is the source code of the sop_fbr software package. In its current implementation the
+method yields a PES in the so-called Tucker sum-of-products form but it is not restricted to this
+ specific ansatz. The novelty of our algorithm
+lies in the fact that the fit is performed in terms of a direct product of Schmidt basis, also known as
+natural potentials. These encode in a non-trivial way all the physics of the problem and, hence, cir-
+cumvent the usual extra ad hoc and a posteriori adjustments (e.g. damping functions) of the fitted
+PES. Moreover, we avoid the intermediate refitting stage common to other tensor-decomposition
+methods typically used in the context of nuclear quantum dynamics. The resulting SOP-FBR
+PES is analytical and differentiable ad inifinitum. Our ansatz is fully general and can be used
+in combination with most (molecular) dynamics codes. In particular, it has been interfaced and
+extensively tested with the Heidelberg implementation of the Multiconfiguration Time-Dependent
+Hartree (MCTDH) quantum dynamical software package.
+
