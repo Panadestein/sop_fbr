@@ -1,0 +1,138 @@
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
++-----------------------------------------------------------------------------------+
+| Welcome to sakura:                                                                |
+|                                                                                   |
+| For questions on sakura HPC cluster, email hotline-sakura@univ-lille.fr           |
+|                                                                                   |
+| Documentation accessible on the WIKI page:                                        |
+| ------------------------------------------                                        |
+| https://wikis.univ-lille.fr/phlam-hpc/                                            |
+|                                                                                   |
+| New commands to check the status of the cluster:                                  |
+| ------------------------------------------------                                  |
+| cnodes           : to list the status of all nodes                                |
+| cnodes -f        : to check for free nodes                                        |
+| checkjob <jobid> : to check the status of your job (especially when not running ! |
+| showstart <jobid>: to check when your job is expected to start when not running ! |
+| cdjob <jobid>    : to move to the <jobid> directory                               |
+| cdtmp <jobid>    : to move to the <jobid> working directory on node               |
+| rmtmp <jobid>    : removing the <jobid> working directory on node                 |
+|                                                                                   |
++-----------------------------------------------------------------------------------+
+
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+	------------------------------------------------
+	Loading the gnuplot 5.0.6 software
+	------------------------------------------------
+
+	------------------------------------------
+	| Loading the Intel compiler and libraries
+	------------------------------------------
+	This adds the following 64 bits softwares :
+	 - C/C++ compiler                        : icc/icpc 15.0.update3
+	 - Fortran compiler                      : ifort 15.0.update3
+	 - Debugger                              : idbe 15.0.update3
+	 - MKL                                   : mkl 11.2.update3
+	 - ITAC                                  : trace 9.0.update3
+
+
+ModuleCmd_Load.c(208):ERROR:105: Unable to locate a modulefile for 'openmolcas'
+	------------------------------------------------
+	Loading the molpro molprop_2020_1_2_linux_x86_64_i8 software
+	------------------------------------------------
+
+	------------------------------------------------
+	Loading the gaussian g16.C.01 software
+	------------------------------------------------
+
+	------------------------------------------------
+	Loading the gcc 8.2.0 software
+	------------------------------------------------
+
+Nb of jobs already running = 6
+HERE
+-------------------------------
+Status of the TMPDIR partition:
+-------------------------------
+/state/partition2: 94% used [Available 179G / 2.7T]
+
+-------------
+Define TMPDIR
+-------------
+Set TMPDIR to /state/partition2/ramon/735022.phlam-s-sakura
+Create TMPDIR
+#--- Calculation running with 12 CPUs:
+u-0-12
+u-0-12
+u-0-12
+u-0-12
+u-0-12
+u-0-12
+u-0-12
+u-0-12
+u-0-12
+u-0-12
+u-0-12
+u-0-12
+#--- Job started at Sat Dec 12 01:00:10 CET 2020
+sending incremental file list
+coeff_hono_pes
+       13959 100%    0.00kB/s    0:00:00       13959 100%    0.00kB/s    0:00:00 (xfer#1, to-check=6/7)
+fit_analysis.py
+         974 100%  951.17kB/s    0:00:00         974 100%  951.17kB/s    0:00:00 (xfer#2, to-check=5/7)
+fit_analysis_b.py
+        1074 100%    1.02MB/s    0:00:00        1074 100%    1.02MB/s    0:00:00 (xfer#3, to-check=4/7)
+mpd.hosts
+           7 100%    6.84kB/s    0:00:00           7 100%    6.84kB/s    0:00:00 (xfer#4, to-check=3/7)
+params_init
+       32768   3%   31.25MB/s    0:00:00      965065 100%  184.07MB/s    0:00:00 (xfer#5, to-check=2/7)
+pot_ros.cpython-36m-x86_64-linux-gnu.so
+       32768  27%    6.25MB/s    0:00:00      118320 100%   18.81MB/s    0:00:00 (xfer#6, to-check=1/7)
+vxypot.py
+        3828 100%  623.05kB/s    0:00:00        3828 100%  623.05kB/s    0:00:00 (xfer#7, to-check=0/7)
+
+sent 1103852 bytes  received 145 bytes  2207994.00 bytes/sec
+total size is 1103227  speedup is 1.00
+SOP-FBR fit
+	------------------------------------------------
+	Loading the python 3.6.5 software
+	------------------------------------------------
+
+	------------------------------------------------
+	Loading the gcc 8.2.0 software
+	------------------------------------------------
+
+Backing up
+sending incremental file list
+e_ref
+       32768   8%    0.00kB/s    0:00:00      390625 100%  170.64MB/s    0:00:00 (xfer#1, to-check=14/16)
+opt_params_0
+       32768   3%   15.62MB/s    0:00:00      965074 100%   83.67MB/s    0:00:00 (xfer#2, to-check=10/16)
+opt_params_1
+       32768   3%    2.60MB/s    0:00:00      965043 100%   35.40MB/s    0:00:00 (xfer#3, to-check=9/16)
+opt_params_2
+       32768   3%    1.16MB/s    0:00:00      965027 100%   22.45MB/s    0:00:00 (xfer#4, to-check=8/16)
+opt_params_3
+       32768   3%  761.90kB/s    0:00:01      965057 100%   16.15MB/s    0:00:00 (xfer#5, to-check=7/16)
+opt_params_4
+       32768   3%  470.59kB/s    0:00:01      965087 100%   12.78MB/s    0:00:00 (xfer#6, to-check=6/16)
+opt_params_final
+       32768   3%  444.44kB/s    0:00:02      965087 100%   10.58MB/s    0:00:00 (xfer#7, to-check=5/16)
+out_reser
+         140 100%    1.57kB/s    0:00:00         140 100%    1.57kB/s    0:00:00 (xfer#8, to-check=4/16)
+rms
+       32768   0%  323.23kB/s    0:01:54    37167577 100%  136.86MB/s    0:00:00 (xfer#9, to-check=1/16)
+
+sent 43354705 bytes  received 183 bytes  86709776.00 bytes/sec
+total size is 44451944  speedup is 1.03
+#--- Job ended at Sat Dec 12 03:15:27 CET 2020
