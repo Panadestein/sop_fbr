@@ -1,3 +1,10 @@
+#########################
+# Once fitted the SPPs with Cheb
+# rebuild the resulting energy tensor
+# and compare to reference energy tensor
+#########################
+
+
 """Regenerates core tensor using SPPs from Chebyshev fits"""
 import numpy as np
 import tensorly as tl

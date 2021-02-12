@@ -1,3 +1,8 @@
+#############################
+# Get the Cheb fir to the guess SPPs
+#############################
+
+
 """Fits SPPs to Chebyshev series"""
 import numpy as np
 #  from scipy.interpolate import splev, splrep

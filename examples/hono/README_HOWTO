@@ -1,0 +1,24 @@
+
+pip install --user tensorly
+
+pip install --user tensorly
+
+ls ~/.local/lib/python3.6/site-packages/
+
+
+RUN
+
+python vxypot
+
+COMPARE
+
+USE -> if ITERS == 5
+
+
+
+
+
+export ENV variable to be able to run on NODES!!!
+
+
+Python3 -> a√ade al Puython path para que sepa donde est√°n que las LIB tensorly etc.
